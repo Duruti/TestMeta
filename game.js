@@ -21,8 +21,8 @@ function connect(){
         }
     }
     fetch('https://api.urlmeta.org/?url='+url,options)
-    //  .then(r => console.log(r))
-    
+    .then(r => console.log(r))
+    .then(d => console.log(d))
 }
 connect()
 
